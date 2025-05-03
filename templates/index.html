@@ -1,33 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Good Luck!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 100px;
-            background-color: #f3f3f3;
-        }
-        .message {
-            background: white;
-            padding: 40px;
-            display: inline-block;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #2e7d32;
-        }
-        p {
-            font-size: 20px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+    <!-- Your CSS link -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="message">
-        <h1>🧠 All the Best, Sanmita! </h1>
-        <p>Good luck on your forensic exam tomorrow — you're going to rock it! 💪📚</p>
-    </div>
+    <h1>Welcome to My First Website</h1>
+    <p>This site is built using Python and Flask. I'm learning web development step-by-step!</p>
 </body>
 </html>
+
